@@ -1,0 +1,36 @@
+﻿
+
+@{
+    ViewData["Title"] = "GetProductList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <div class="row">
+        <div class="col-8 offset-2">
+            <table class="table table-bordered" id="DataTable">
+                <thead>
+                    <tr class="text-center">
+                       
+                        <th>Picture</th>
+                        <th>Name</th>
+                        <th>Detail</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>TotalPrice</th>
+                        <th>CreatedDate</th>
+                    </tr>
+                </thead>
+
+            </table>
+
+        </div>
+
+    </div>
+</div>
+
+<link href="~/css/site.css" rel="stylesheet" />
+
+@section scripts {
+    <script src="~/js/datatype.js"></script>
+}
